@@ -1,0 +1,25 @@
+{
+  "name": "modern_cv",
+  "version": "1.0.0",
+  "description": "This is a modern cv",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Saurabh-Shivam/Modern-CV.git"
+  },
+  "author": "Saurabh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Saurabh-Shivam/Modern-CV/issues"
+  },
+  "homepage": "https://github.com/Saurabh-Shivam/Modern-CV#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.12",
+    "path": "^0.12.7"
+  }
+}
