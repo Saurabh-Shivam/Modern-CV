@@ -5,10 +5,7 @@ const bodyParser = require("body-parser");
 const app = express();
 
 // app.use(express.static("public"));
-app.use(express.static(path.join(
-    __dirname,
-    '/public'
-)));
+app.use('/public', express.static('public')); // for getting other files 
 
 app.use(bodyParser.urlencoded({
     extended: true
